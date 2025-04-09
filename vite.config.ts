@@ -30,7 +30,7 @@ export default defineConfig(async ({ mode }) => {
     ],
     build: {
       minify: true,
-      outDir: 'build',
+      outDir: 'dist',
       sourcemap: false,
     },
     esbuild: {
